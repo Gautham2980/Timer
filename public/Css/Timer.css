@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.timer{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(53, 185, 226, 0.3),rgb(199, 98, 152));
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    padding-top: 200px;
+
+}
+
+.timer-container{
+    background-color: #fff;
+    width: 100%;
+    padding: 1rem 6rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.75rem rgb(0, 0,0,0.4);
+}
+
+.stop,.restart{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color:rgb(199, 98, 152);
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.stop{
+    margin-left: 15px;
+}
+    
